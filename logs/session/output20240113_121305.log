@@ -1,0 +1,1088 @@
+Server CFG Path :  cfg/server_cfg.ini
+Entry List Path :  cfg/entry_list.ini
+Assetto Corsa Dedicated Server v1.15
+Protocol version: 202
+2024-01-13 12:13:08.0783276 -0800 PST m=+0.004003100
+Num CPU: 24
+LOCAL IP 0: fe80::7d33:a46a:ab7e:6f4c%Synology
+LOCAL IP 1: fe80::c6b7:8b72:5616:53a7%Ethernet 2
+LOCAL IP 2: 10.10.10.10
+LOCAL IP 3: 192.168.1.36
+Using cfg path:  cfg/server_cfg.ini
+Car list:
+_bmw_m3_e30_
+Client interval HZ: 18
+WARNING: pitstop window needs a valid range
+WARNING: RESULT_SCREEN_TIME was less of 30secs or not found, setting to default: 10secs
+WARNING: MAX_CONTACTS_PER_KM was 0 or not found, setting to default: 5
+AUTH_PLUGIN_ADDRESS 
+TRACK=magione
+CARS=["bmw_m3_e30"]
+Loading PRACTICE session
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+Loading QUALIFY session
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+DynamicTrack: first session, resetting grip
+Trying to load DRS zones from: content/tracks/magione/data/drs_zones.ini
+Loading ZONE_0 {0.401 0.676}
+Weather update. Ambient: 14.144269 Road: 13.9156475 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+CHECKSUM: system/data/surfaces.ini=41949b9f7045cad2af3f5eb951d170a9
+CHECKSUM: content/tracks/magione/data/surfaces.ini=6e128cc6cb7dab5caa3822f1143d5012
+CHECKSUM: content/tracks/magione/models.ini=d6788b3dd733adb57f4b5b0273f846d5
+ACD CHECKSUM:7770c53907d4161c63db9e7f9c97a96b
+Loading blacklist
+Opening entry list:  cfg/entry_list.ini
+Found car  CAR_0
+CAR: 0 bmw_m3_e30 (0) [ []]  []  Ballast: 0 kg
+CAR: 0 bmw_m3_e30 (0) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_1
+CAR: 1 bmw_m3_e30 (1) [ []]  []  Ballast: 0 kg
+CAR: 1 bmw_m3_e30 (1) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_2
+CAR: 2 bmw_m3_e30 (2) [ []]  []  Ballast: 0 kg
+CAR: 2 bmw_m3_e30 (2) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_3
+CAR: 3 bmw_m3_e30 (3) [ []]  []  Ballast: 0 kg
+CAR: 3 bmw_m3_e30 (3) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_4
+CAR: 4 bmw_m3_e30 (4) [ []]  []  Ballast: 0 kg
+CAR: 4 bmw_m3_e30 (4) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_5
+CAR: 5 bmw_m3_e30 (5) [ []]  []  Ballast: 0 kg
+CAR: 5 bmw_m3_e30 (5) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_6
+CAR: 6 bmw_m3_e30 (6) [ []]  []  Ballast: 0 kg
+CAR: 6 bmw_m3_e30 (6) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_7
+CAR: 7 bmw_m3_e30 (7) [ []]  []  Ballast: 0 kg
+CAR: 7 bmw_m3_e30 (7) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_8
+CAR: 8 bmw_m3_e30 (8) [ []]  []  Ballast: 0 kg
+CAR: 8 bmw_m3_e30 (8) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_9
+CAR: 9 bmw_m3_e30 (9) [ []]  []  Ballast: 0 kg
+CAR: 9 bmw_m3_e30 (9) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_10
+CAR: 10 bmw_m3_e30 (10) [ []]  []  Ballast: 0 kg
+CAR: 10 bmw_m3_e30 (10) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_11
+CAR: 11 bmw_m3_e30 (11) [ []]  []  Ballast: 0 kg
+CAR: 11 bmw_m3_e30 (11) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_12
+CAR: 12 bmw_m3_e30 (12) [ []]  []  Ballast: 0 kg
+CAR: 12 bmw_m3_e30 (12) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_13
+CAR: 13 bmw_m3_e30 (13) [ []]  []  Ballast: 0 kg
+CAR: 13 bmw_m3_e30 (13) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_14
+CAR: 14 bmw_m3_e30 (14) [ []]  []  Ballast: 0 kg
+CAR: 14 bmw_m3_e30 (14) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_15
+CAR: 15 bmw_m3_e30 (15) [ []]  []  Ballast: 0 kg
+CAR: 15 bmw_m3_e30 (15) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_16
+CAR: 16 bmw_m3_e30 (16) [ []]  []  Ballast: 0 kg
+CAR: 16 bmw_m3_e30 (16) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Found car  CAR_17
+CAR: 17 bmw_m3_e30 (17) [ []]  []  Ballast: 0 kg
+CAR: 17 bmw_m3_e30 (17) [ []]  []  Restrictor: 0
+open setups/bmw_m3_e30.ini: The system cannot find the file specified.
+Random seed: 2255571519
+Starting TCP listener at port 9600
+Session has 0 laps, will not save json
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 14.836155 Road: 14.534157 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+No laptime available, use car index for grids
+POS: 1, SessionID:0
+POS: 2, SessionID:1
+POS: 3, SessionID:2
+POS: 4, SessionID:3
+POS: 5, SessionID:4
+POS: 6, SessionID:5
+Starting HTTP server on port  8081
+POS: 7, SessionID:6
+POS: 8, SessionID:7
+POS: 9, SessionID:8
+POS: 10, SessionID:9
+POS: 11, SessionID:10
+POS: 12, SessionID:11
+POS: 13, SessionID:12
+POS: 14, SessionID:13
+POS: 15, SessionID:14
+POS: 16, SessionID:15
+POS: 17, SessionID:16
+POS: 18, SessionID:17
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+Server started
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+CONNECTION TO LOBBY FAILED, ATTEMPT NUMBER  1
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+CONNECTION TO LOBBY FAILED, ATTEMPT NUMBER  2
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+CONNECTION TO LOBBY FAILED, ATTEMPT NUMBER  3
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+CONNECTION TO LOBBY FAILED, ATTEMPT NUMBER  4
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+CONNECTION TO LOBBY FAILED, ATTEMPT NUMBER  5
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=AC_Server&port=9600&tcp_port=9600&max_clients=18&track=magione&cars=bmw_m3_e30&timeofday=48&sessions=1,2,3&durations=600,600,5&password=0&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=SV&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: OK,47949312,8081
+CONNECTED TO LOBBY
+RESTARTING FROM SESSION 0
+Session has 0 laps, will not save json
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 17.765654 Road: 24.683289 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=magione&pickup=1
+OK
+PAGE: /JSON|76561199526717128
+Serve JSON took 45 ms
+PAGE: /JSON|76561198366666193
+Serve JSON took 15 ms
+PAGE: /JSON|76561198984109417
+Serve JSON took 11 ms
+PAGE: /JSON|76561199012285098
+Serve JSON took 39 ms
+PAGE: /JSON|76561198120592608
+Serve JSON took 34 ms
+PAGE: /JSON|76561198873100812
+Serve JSON took 50 ms
+PAGE: /JSON|76561199045340950
+Serve JSON took 30 ms
+PAGE: /JSON|76561198423705005
+Serve JSON took 2 ms
+PAGE: /JSON|76561199608885369
+Serve JSON took 8 ms
+PAGE: /JSON|76561198875313333
+Serve JSON took 10 ms
+PAGE: /JSON|76561199000458402
+Serve JSON took 8 ms
+PAGE: /JSON|76561199528142331
+Serve JSON took 8 ms
+PAGE: /JSON|76561197979295584
+Serve JSON took 40 ms
+PAGE: /JSON|76561199233940571
+Serve JSON took 33 ms
+PAGE: /JSON|76561199589695867
+Serve JSON took 49 ms
+PAGE: /JSON|76561199162559327
+Serve JSON took 46 ms
+PAGE: /JSON|76561198239651232
+Serve JSON took 38 ms
+PAGE: /JSON|76561198142570677
+Serve JSON took 36 ms
+PAGE: /JSON|76561199136443930
+Serve JSON took 6 ms
+PAGE: /JSON|76561198399438276
+Serve JSON took 36 ms
+PAGE: /JSON|76561198194381791
+Serve JSON took 26 ms
+PAGE: /JSON|76561198257037246
+Serve JSON took 6 ms
+PAGE: /JSON|76561197986943951
+Serve JSON took 37 ms
+PAGE: /JSON|76561199110398032
+Serve JSON took 54 ms
+PAGE: /JSON|76561199004311328
+Serve JSON took 38 ms
+PAGE: /JSON|76561199226155246
+Serve JSON took 28 ms
+PAGE: /JSON|76561198974681936
+Serve JSON took 55 ms
+PAGE: /JSON|76561198906655287
+Serve JSON took 34 ms
+PAGE: /JSON|76561199228285088
+Serve JSON took 53 ms
+PAGE: /JSON|76561199176496507
+Serve JSON took 58 ms
+PAGE: /JSON|76561198269116963
+Serve JSON took 62 ms
+PAGE: /JSON|76561198722739456
+Serve JSON took 42 ms
+PAGE: /JSON|76561198939685074
+Serve JSON took 41 ms
+PAGE: /JSON|76561199403529384
+PAGE: /JSON|76561199190622942
+Serve JSON took 56 ms
+Serve JSON took 84 ms
+PAGE: /JSON|76561199203047705
+Serve JSON took 33 ms
+PAGE: /JSON|76561197995031952
+Serve JSON took 39 ms
+PAGE: /JSON|76561199134228988
+Serve JSON took 43 ms
+PAGE: /JSON|76561199005192367
+Serve JSON took 54 ms
+PAGE: /JSON|76561198314583163
+Serve JSON took 44 ms
+PAGE: /JSON|76561199134309679
+Serve JSON took 29 ms
+PAGE: /JSON|76561198130762735
+Serve JSON took 33 ms
+PAGE: /JSON|76561198989593632
+Serve JSON took 1 ms
+PAGE: /JSON|76561199015749276
+Serve JSON took 2 ms
+PAGE: /JSON|76561199571849865
+Serve JSON took 45 ms
+PAGE: /JSON|76561199285298938
+Serve JSON took 40 ms
+PAGE: /JSON|76561198433182909
+Serve JSON took 19 ms
+PAGE: /JSON|76561198002587554
+Serve JSON took 40 ms
+PAGE: /JSON|76561198257915925
+Serve JSON took 9 ms
+PAGE: /JSON|76561198419928232
+Serve JSON took 45 ms
+PAGE: /JSON|76561198196834203
+Serve JSON took 55 ms
+PAGE: /JSON|76561199416453280
+Serve JSON took 47 ms
+PAGE: /JSON|76561199042650132
+Serve JSON took 63 ms
+PAGE: /JSON|76561198315516181
+Serve JSON took 44 ms
+PAGE: /JSON|76561198816227110
+Serve JSON took 39 ms
+PAGE: /JSON|76561198390083634
+Serve JSON took 36 ms
+PAGE: /JSON|76561199218225029
+Serve JSON took 35 ms
+PAGE: /JSON|76561198273471310
+Serve JSON took 54 ms
+PAGE: /JSON|76561199241040498
+Serve JSON took 45 ms
+PAGE: /JSON|76561198042246026
+Serve JSON took 2 ms
+PAGE: /JSON|76561198930209117
+Serve JSON took 50 ms
+PAGE: /JSON|76561199274100176
+Serve JSON took 20 ms
+PAGE: /JSON|76561199520203370
+Serve JSON took 45 ms
+PAGE: /JSON|76561199079277719
+Serve JSON took 26 ms
+PAGE: /JSON|76561199015639585
+Serve JSON took 18 ms
+PAGE: /JSON|76561197972253375
+Serve JSON took 54 ms
+PAGE: /JSON|76561199439570002
+Serve JSON took 2 ms
+PAGE: /JSON|76561199083552574
+Serve JSON took 62 ms
+PAGE: /JSON|76561198390586395
+Serve JSON took 44 ms
+PAGE: /JSON|76561199043473400
+Serve JSON took 58 ms
+PAGE: /JSON|76561199388231263
+Serve JSON took 49 ms
+PAGE: /JSON|76561198960084069
+Serve JSON took 27 ms
+PAGE: /JSON|76561198118976381
+Serve JSON took 18 ms
+PAGE: /JSON|76561198119291051
+Serve JSON took 17 ms
+PAGE: /JSON|76561198249534842
+Serve JSON took 61 ms
+PAGE: /JSON|76561199145083323
+Serve JSON took 53 ms
+PAGE: /JSON|76561198273329795
+Serve JSON took 3 ms
+PAGE: /JSON|76561198033154343
+Serve JSON took 32 ms
+PAGE: /JSON|76561198799226296
+Serve JSON took 48 ms
+PAGE: /JSON|76561197999897587
+Serve JSON took 3 ms
+PAGE: /JSON|76561199503972476
+Serve JSON took 49 ms
+PAGE: /JSON|76561198159614947
+Serve JSON took 39 ms
+PAGE: /JSON|76561199491924178
+Serve JSON took 51 ms
+PAGE: /JSON|76561199038738802
+PAGE: /JSON|76561198314583163
+Serve JSON took 59 ms
+Serve JSON took 94 ms
+PAGE: /JSON|76561199100950614
+Serve JSON took 59 ms
+PAGE: /JSON|76561198449858452
+Serve JSON took 49 ms
+PAGE: /JSON|76561198420054903
+Serve JSON took 33 ms
+PAGE: /JSON|76561198983388655
+Serve JSON took 45 ms
+PAGE: /JSON|76561198288363478
+Serve JSON took 43 ms
+PAGE: /JSON|76561198825125826
+Serve JSON took 24 ms
+PAGE: /JSON|76561199102383273
+Serve JSON took 26 ms
+PAGE: /JSON|76561198093349056
+Serve JSON took 12 ms
+PAGE: /JSON|76561199165586976
+Serve JSON took 61 ms
+PAGE: /JSON|76561198327124982
+Serve JSON took 56 ms
+PAGE: /JSON|76561199527152135
+Serve JSON took 11 ms
+PAGE: /JSON|76561198009306722
+Serve JSON took 26 ms
+PAGE: /JSON|76561199263017583
+Serve JSON took 25 ms
+PAGE: /JSON|76561198136044782
+Serve JSON took 53 ms
+PAGE: /JSON|76561198249797316
+Serve JSON took 1 ms
+PAGE: /JSON|76561199474688178
+Serve JSON took 31 ms
+PAGE: /JSON|76561198092272365
+Serve JSON took 46 ms
+PAGE: /JSON|76561198371295558
+Serve JSON took 44 ms
+PAGE: /JSON|76561199427136881
+Serve JSON took 9 ms
+PAGE: /JSON|76561199529203752
+Serve JSON took 40 ms
+PAGE: /JSON|76561198135962259
+Serve JSON took 57 ms
+PAGE: /JSON|76561198013855334
+Serve JSON took 48 ms
+PAGE: /JSON|76561199299159482
+Serve JSON took 20 ms
+PAGE: /JSON|76561198189726975
+Serve JSON took 54 ms
+PAGE: /JSON|76561199106230690
+Serve JSON took 53 ms
+PAGE: /JSON|76561198968824483
+Serve JSON took 57 ms
+PAGE: /JSON|76561198427953124
+PAGE: /JSON|76561198888278977
+Serve JSON took 29 ms
+Serve JSON took 64 ms
+PAGE: /JSON|76561198070899902
+Serve JSON took 1 ms
+PAGE: /JSON|76561198253501844
+Serve JSON took 12 ms
+PAGE: /JSON|76561198124733829
+Serve JSON took 30 ms
+PAGE: /JSON|76561198337809423
+Serve JSON took 56 ms
+PAGE: /JSON|76561199439664606
+Serve JSON took 46 ms
+PAGE: /JSON|76561199175433566
+Serve JSON took 9 ms
+PAGE: /JSON|76561198005919966
+Serve JSON took 49 ms
+PAGE: /JSON|76561199228733186
+PAGE: /JSON|76561198340179882
+Serve JSON took 46 ms
+Serve JSON took 108 ms
+PAGE: /JSON|76561198384650711
+Serve JSON took 30 ms
+PAGE: /JSON|76561199522558811
+Serve JSON took 12 ms
+PAGE: /JSON|76561199073773410
+Serve JSON took 24 ms
+PAGE: /JSON|76561198847432523
+Serve JSON took 56 ms
+PAGE: /JSON|76561197971031138
+Serve JSON took 57 ms
+PAGE: /JSON|76561199147296298
+Serve JSON took 17 ms
+PAGE: /JSON|76561198975224923
+Serve JSON took 31 ms
+PAGE: /JSON|76561199571658760
+Serve JSON took 34 ms
+PAGE: /JSON|76561198120351788
+Serve JSON took 17 ms
+PAGE: /JSON|76561199000429188
+Serve JSON took 51 ms
+PAGE: /JSON|76561198836805215
+Serve JSON took 56 ms
+PAGE: /JSON|76561199191673073
+Serve JSON took 4 ms
+PAGE: /JSON|76561199194750348
+Serve JSON took 12 ms
+PAGE: /JSON|76561199091304468
+Serve JSON took 65 ms
+PAGE: /JSON|76561198072831650
+Serve JSON took 26 ms
+PAGE: /JSON|76561199236155064
+Serve JSON took 13 ms
+PAGE: /JSON|76561199059017856
+Serve JSON took 25 ms
+PAGE: /JSON|76561198985725791
+Serve JSON took 38 ms
+PAGE: /JSON|76561199090400494
+Serve JSON took 48 ms
+PAGE: /JSON|76561198982119156
+Serve JSON took 45 ms
+PAGE: /JSON|76561199401404820
+Serve JSON took 28 ms
+PAGE: /JSON|76561198061461076
+Serve JSON took 29 ms
+PAGE: /JSON|76561198361832943
+Serve JSON took 57 ms
+PAGE: /JSON|76561199099035212
+Serve JSON took 57 ms
+PAGE: /JSON|76561198087495743
+Serve JSON took 46 ms
+PAGE: /JSON|76561199101803554
+Serve JSON took 62 ms
+PAGE: /JSON|76561199237405118
+Serve JSON took 56 ms
+PAGE: /JSON|76561198030438568
+Serve JSON took 58 ms
+PAGE: /JSON|76561198855735243
+Serve JSON took 39 ms
+PAGE: /JSON|76561198202280308
+Serve JSON took 56 ms
+PAGE: /JSON|76561198137168868
+Serve JSON took 44 ms
+PAGE: /JSON|76561199388858131
+Serve JSON took 11 ms
+PAGE: /JSON|76561198096555513
+PAGE: /JSON|76561197998105053
+Serve JSON took 50 ms
+Serve JSON took 85 ms
+PAGE: /JSON|76561198316175298
+Serve JSON took 46 ms
+PAGE: /JSON|76561199171044972
+Serve JSON took 60 ms
+PAGE: /JSON|76561199367883728
+Serve JSON took 30 ms
+PAGE: /JSON|76561199109144406
+Serve JSON took 20 ms
+PAGE: /JSON|76561199185092047
+Serve JSON took 48 ms
+PAGE: /JSON|76561198951261567
+Serve JSON took 1 ms
+PAGE: /JSON|76561198082502497
+Serve JSON took 41 ms
+PAGE: /JSON|76561198448260191
+Serve JSON took 17 ms
+PAGE: /JSON|76561199572616136
+Serve JSON took 33 ms
+PAGE: /JSON|76561198256703327
+Serve JSON took 41 ms
+PAGE: /JSON|76561198367176132
+Serve JSON took 45 ms
+PAGE: /JSON|76561199055625451
+Serve JSON took 28 ms
+PAGE: /JSON|76561198205735295
+Serve JSON took 33 ms
+PAGE: /JSON|76561199099403797
+Serve JSON took 12 ms
+PAGE: /JSON|76561198147563344
+Serve JSON took 27 ms
+PAGE: /JSON|76561198068273297
+Serve JSON took 3 ms
+PAGE: /JSON|76561198994968371
+Serve JSON took 29 ms
+PAGE: /JSON|76561199122875858
+Serve JSON took 22 ms
+PAGE: /JSON|76561199052388064
+PAGE: /JSON|76561198018461725
+Serve JSON took 56 ms
+Serve JSON took 77 ms
+PAGE: /JSON|76561199051574733
+Serve JSON took 19 ms
+PAGE: /JSON|76561199037318167
+PAGE: /JSON|76561198004849233
+Serve JSON took 52 ms
+Serve JSON took 113 ms
+PAGE: /JSON|76561199394345707
+Serve JSON took 60 ms
+PAGE: /JSON|76561198963711493
+Serve JSON took 52 ms
+PAGE: /JSON|76561199201453715
+Serve JSON took 18 ms
+PAGE: /JSON|76561199052153167
+Serve JSON took 51 ms
+PAGE: /JSON|76561199017276521
+Serve JSON took 35 ms
+PAGE: /JSON|76561198920780682
+Serve JSON took 59 ms
+PAGE: /JSON|76561198256844834
+Serve JSON took 26 ms
+PAGE: /JSON|76561198129539075
+Serve JSON took 19 ms
+PAGE: /JSON|76561198052827192
+Serve JSON took 25 ms
+PAGE: /JSON|76561199536357759
+Serve JSON took 10 ms
+PAGE: /JSON|76561198144503917
+Serve JSON took 52 ms
+PAGE: /JSON|76561198818872770
+Serve JSON took 24 ms
+PAGE: /JSON|76561197960718248
+Serve JSON took 42 ms
+PAGE: /JSON|76561199171378015
+Serve JSON took 42 ms
+PAGE: /JSON|76561198373690927
+Serve JSON took 62 ms
+PAGE: /JSON|76561199492082004
+Serve JSON took 61 ms
+PAGE: /JSON|76561199277294179
+Serve JSON took 10 ms
+PAGE: /JSON|76561199510992595
+Serve JSON took 30 ms
+PAGE: /JSON|76561199006460160
+Serve JSON took 9 ms
+PAGE: /JSON|76561199153660746
+Serve JSON took 27 ms
+PAGE: /JSON|76561199509460354
+Serve JSON took 11 ms
+PAGE: /JSON|76561199020858948
+Serve JSON took 9 ms
+PAGE: /JSON|76561199603830414
+Serve JSON took 18 ms
+PAGE: /JSON|76561199431666799
+Serve JSON took 5 ms
+PAGE: /JSON|76561198240216458
+Serve JSON took 18 ms
+PAGE: /JSON|76561199074414719
+Serve JSON took 27 ms
+PAGE: /JSON|76561198271271930
+Serve JSON took 49 ms
+PAGE: /JSON|76561198975561176
+Serve JSON took 23 ms
+PAGE: /JSON|76561199093104099
+Serve JSON took 53 ms
+PAGE: /JSON|76561198929154418
+PAGE: /JSON|76561198075948700
+Serve JSON took 58 ms
+Serve JSON took 63 ms
+PAGE: /JSON|76561198250968394
+Serve JSON took 16 ms
+PAGE: /JSON|76561198343409486
+Serve JSON took 4 ms
+PAGE: /JSON|76561199429974350
+Serve JSON took 53 ms
+PAGE: /JSON|76561199352605633
+Serve JSON took 7 ms
+PAGE: /JSON|76561199094418805
+Serve JSON took 22 ms
+PAGE: /JSON|76561199467347199
+Serve JSON took 29 ms
+PAGE: /JSON|76561199216107529
+Serve JSON took 60 ms
+PAGE: /JSON|76561199466032490
+PAGE: /JSON|76561198323726083
+Serve JSON took 34 ms
+Serve JSON took 95 ms
+PAGE: /JSON|76561198866507546
+Serve JSON took 55 ms
+PAGE: /JSON|76561199192518766
+Serve JSON took 27 ms
+PAGE: /JSON|76561199114331589
+Serve JSON took 3 ms
+PAGE: /JSON|76561198405801179
+Serve JSON took 13 ms
+PAGE: /JSON|76561198340007083
+PAGE: /JSON|76561199446977456
+Serve JSON took 43 ms
+Serve JSON took 78 ms
+PAGE: /JSON|76561198048719522
+Serve JSON took 13 ms
+PAGE: /JSON|76561198060011451
+Serve JSON took 55 ms
+PAGE: /JSON|76561199202714095
+Serve JSON took 42 ms
+PAGE: /JSON|76561198204862811
+Serve JSON took 6 ms
+PAGE: /JSON|76561197989044536
+Serve JSON took 59 ms
+PAGE: /JSON|76561198387066738
+Serve JSON took 32 ms
+PAGE: /JSON|76561199055208653
+Serve JSON took 53 ms
+PAGE: /JSON|76561199186760016
+Serve JSON took 4 ms
+PAGE: /JSON|76561199195850254
+Serve JSON took 37 ms
+PAGE: /JSON|76561197999736408
+PAGE: /JSON|76561198228849476
+Serve JSON took 39 ms
+Serve JSON took 86 ms
+PAGE: /JSON|76561198320504126
+Serve JSON took 57 ms
+PAGE: /JSON|76561199484100978
+Serve JSON took 37 ms
+PAGE: /JSON|76561199013862760
+PAGE: /JSON|76561199099082200
+Serve JSON took 19 ms
+Serve JSON took 74 ms
+PAGE: /JSON|76561199523194007
+Serve JSON took 13 ms
+PAGE: /JSON|76561199480175519
+Serve JSON took 13 ms
+PAGE: /JSON|76561199241992396
+Serve JSON took 13 ms
+PAGE: /JSON|76561198172789413
+Serve JSON took 48 ms
+PAGE: /JSON|76561199218490911
+Serve JSON took 7 ms
+PAGE: /JSON|76561198274781635
+Serve JSON took 45 ms
+PAGE: /JSON|76561198294696597
+Serve JSON took 10 ms
+PAGE: /JSON|76561199404251062
+Serve JSON took 35 ms
+PAGE: /JSON|76561198830182372
+PAGE: /JSON|76561199218278711
+Serve JSON took 48 ms
+Serve JSON took 101 ms
+PAGE: /JSON|76561199560371762
+Serve JSON took 10 ms
+PAGE: /JSON|76561198054225014
+Serve JSON took 28 ms
+PAGE: /JSON|76561199085173897
+Serve JSON took 49 ms
+PAGE: /JSON|76561198258759973
+Serve JSON took 13 ms
+PAGE: /JSON|76561198887067865
+Serve JSON took 14 ms
+PAGE: /JSON|76561197999245534
+Serve JSON took 34 ms
+PAGE: /JSON|76561198109115103
+Serve JSON took 39 ms
+PAGE: /JSON|76561199416453280
+Serve JSON took 58 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 344 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 344 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199575857015
+Serve JSON took 5 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 341 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 341 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 51 ms
+PAGE: /JSON|76561199189782984
+Serve JSON took 57 ms
+PAGE: /JSON|76561198830422269
+Serve JSON took 47 ms
+PAGE: /JSON|76561199083098618
+PAGE: /JSON|76561198839495809
+Serve JSON took 20 ms
+Serve JSON took 71 ms
+PAGE: /JSON|76561198118976381
+Serve JSON took 28 ms
+PAGE: /JSON|76561198151687016
+Serve JSON took 7 ms
+PAGE: /JSON|76561198320000883
+Serve JSON took 9 ms
+PAGE: /JSON|76561198217322599
+Serve JSON took 25 ms
+PAGE: /JSON|76561197979424214
+Serve JSON took 23 ms
+PAGE: /JSON|76561199370646839
+Serve JSON took 52 ms
+PAGE: /JSON|76561198061451575
+Serve JSON took 42 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 331 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 331 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 62 ms
+PAGE: /JSON|76561199121375588
+Serve JSON took 45 ms
+PAGE: /JSON|76561198323861230
+Serve JSON took 53 ms
+PAGE: /JSON|76561197984751382
+Serve JSON took 1 ms
+PAGE: /JSON|76561198974396205
+Serve JSON took 35 ms
+PAGE: /JSON|76561199478087258
+Serve JSON took 16 ms
+PAGE: /JSON|76561199213417738
+Serve JSON took 39 ms
+PAGE: /JSON|76561199445426040
+Serve JSON took 22 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 321 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 321 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 320 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 320 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199231651875
+Serve JSON took 3 ms
+PAGE: /JSON|76561199496305141
+Serve JSON took 46 ms
+PAGE: /JSON|76561198310457391
+Serve JSON took 36 ms
+PAGE: /JSON|76561199443227949
+Serve JSON took 10 ms
+PAGE: /JSON|76561199445473499
+Serve JSON took 8 ms
+PAGE: /JSON|76561199383340497
+Serve JSON took 30 ms
+PAGE: /JSON|76561198156656577
+Serve JSON took 14 ms
+PAGE: /JSON|76561198405801179
+Serve JSON took 12 ms
+PAGE: /JSON|76561199487425706
+Serve JSON took 59 ms
+New connection from &{{2157320500}}
+SOCKET NO DELAY SET
+TCP packet 61
+ACP_REQUEST_CONNECTION via TCP
+
+NEW PICKUP CONNECTION from  192.168.1.36:62122
+VERSION 202
+iameddieyayaya
+REQUESTED CAR: bmw_m3_e30*
+ENTRY LIST OPEN MODE 1
+Looking for available slot by name for GUID 76561199092977736 bmw_m3_e30
+Looking for available slot
+Slot found at index 0
+ResetCarResults, index: 0
+DRIVER ACCEPTED FOR CAR 0
+DRIVER ACCEPTED FOR CAR iameddieyayaya
+Tyre blankets: false
+Sending SESSION ID : 0
+Sending type 1
+Sending type 2
+Sending type 3
+Sending ID : 0
+Sending type 1
+FIND AND SEND PLAYER'S POSITION
+ELAPSED=290267
+Sending 3 checksum requests
+SERVER TIME: 326256
+DRIVER: iameddieyayaya []
+OK
+PAGE: /JSON|76561199290390910
+Serve JSON took 0 ms
+PAGE: /JSON|76561199034450333
+Serve JSON took 2 ms
+TCP packet 63
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+Sending car list from index:0
+TCP packet 63
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+Sending car list from index:10
+PAGE: /JSON|76561199474435893
+Serve JSON took 12 ms
+PAGE: /JSON|76561199161544464
+Serve JSON took 5 ms
+PAGE: /JSON|76561198859428917
+Serve JSON took 3 ms
+PAGE: /JSON|76561199467295707
+Serve JSON took 4 ms
+PAGE: /JSON|76561199059637177
+Serve JSON took 3 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 305 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 0 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 305 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198216030844
+Serve JSON took 7 ms
+PAGE: /JSON|76561199193053726
+Serve JSON took 12 ms
+PAGE: /JSON|76561199289703360
+Serve JSON took 9 ms
+TCP packet 13
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+PAGE: /JSON|76561198002129330
+Serve JSON took 7 ms
+PAGE: /JSON|76561198259099983
+Serve JSON took 4 ms
+PAGE: /JSON|76561198340269858
+Serve JSON took 11 ms
+PAGE: /JSON|76561198198447337
+Serve JSON took 12 ms
+PAGE: /JSON|76561198314029872
+Serve JSON took 3 ms
+PAGE: /JSON|76561199402911421
+Serve JSON took 15 ms
+PAGE: /JSON|76561199201453715
+Serve JSON took 7 ms
+PAGE: /JSON|76561199405459570
+Serve JSON took 5 ms
+PAGE: /JSON|76561198121754299
+Serve JSON took 13 ms
+PAGE: /JSON|76561199125866204
+Serve JSON took 6 ms
+PAGE: /JSON|76561197963346411
+Serve JSON took 11 ms
+PAGE: /JSON|76561198327211845
+Serve JSON took 12 ms
+PAGE: /JSON|76561199147807919
+Serve JSON took 2 ms
+TCP packet 80
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+iameddieyayaya [] changed tyres to SV
+TCP packet 80
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+iameddieyayaya [] changed tyres to SV
+TCP packet 13
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+Recieved P2P Count: 0
+Sending weather  17.765654 24.683289
+Sending wind  0 0
+Sending first leaderboard to car: bmw_m3_e30 (0) [iameddieyayaya []]
+SendLapCompletedMessage
+1) iameddieyayaya BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 HasFinished:false
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 HasFinished:false
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 HasFinished:false
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 HasFinished:false
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 HasFinished:false
+6)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:5 HasFinished:false
+7)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:6 HasFinished:false
+8)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:7 HasFinished:false
+9)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:8 HasFinished:false
+10)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:9 HasFinished:false
+11)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:10 HasFinished:false
+12)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:11 HasFinished:false
+13)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:12 HasFinished:false
+14)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:13 HasFinished:false
+15)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:14 HasFinished:false
+16)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:15 HasFinished:false
+17)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:16 HasFinished:false
+18)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:17 HasFinished:false
+Reset time offset for iameddieyayaya diff: 323071
+PAGE: /JSON|76561198263488607
+Serve JSON took 9 ms
+TCP packet 68
+Dispatching TCP message to bmw_m3_e30 (0) [iameddieyayaya []]
+Checksums received from  iameddieyayaya []
+system/data/surfaces.ini  ok
+content/tracks/magione/data/surfaces.ini  ok
+content/tracks/magione/models.ini  ok
+Car checksum  bmw_m3_e30 true
+PAGE: /JSON|76561198882220218
+Serve JSON took 13 ms
+PAGE: /JSON|76561198324324259
+Serve JSON took 4 ms
+PAGE: /JSON|76561199144012970
+Serve JSON took 15 ms
+PAGE: /JSON|76561199466244857
+Serve JSON took 15 ms
+PAGE: /JSON|76561199024101819
+Serve JSON took 12 ms
+PAGE: /JSON|76561199057804650
+Serve JSON took 1 ms
+PAGE: /JSON|76561199229760823
+Serve JSON took 1 ms
+PAGE: /JSON|76561198986184389
+Serve JSON took 1 ms
+PAGE: /JSON|76561198265043502
+Serve JSON took 1 ms
+PAGE: /JSON|76561198389644135
+Serve JSON took 1 ms
+PAGE: /JSON|76561198179592099
+Serve JSON took 2 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 290 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 290 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199575665394
+Serve JSON took 1 ms
+PAGE: /JSON|76561199229387047
+Serve JSON took 1 ms
+PAGE: /JSON|76561198045444098
+Serve JSON took 1 ms
+PAGE: /JSON|76561199474950158
+Serve JSON took 1 ms
+PAGE: /JSON|76561199182076594
+Serve JSON took 1 ms
+PAGE: /JSON|76561198259092900
+Serve JSON took 1 ms
+PAGE: /JSON|76561199251359891
+Serve JSON took 1 ms
+PAGE: /JSON|76561199576944770
+Serve JSON took 1 ms
+PAGE: /JSON|76561198956057840
+Serve JSON took 1 ms
+PAGE: /JSON|76561199482928326
+Serve JSON took 1 ms
+PAGE: /JSON|76561199000272562
+Serve JSON took 1 ms
+PAGE: /JSON|76561199100591296
+Serve JSON took 1 ms
+PAGE: /JSON|76561199229153499
+Serve JSON took 1 ms
+PAGE: /JSON|76561197990024557
+Serve JSON took 1 ms
+PAGE: /JSON|76561199118036931
+Serve JSON took 1 ms
+PAGE: /JSON|76561199124132221
+Serve JSON took 1 ms
+PAGE: /JSON|76561198103337875
+Serve JSON took 2 ms
+PAGE: /JSON|76561199238292373
+Serve JSON took 1 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 275 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 275 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199235153253
+Serve JSON took 2 ms
+PAGE: /JSON|76561198151687016
+Serve JSON took 1 ms
+PAGE: /JSON|76561199383578578
+Serve JSON took 1 ms
+PAGE: /JSON|76561199089686258
+Serve JSON took 2 ms
+PAGE: /JSON|76561199466043728
+Serve JSON took 1 ms
+PAGE: /JSON|76561198988893657
+Serve JSON took 1 ms
+PAGE: /JSON|76561197960387649
+Serve JSON took 1 ms
+PAGE: /JSON|76561198288531613
+Serve JSON took 9 ms
+PAGE: /JSON|76561198343543556
+Serve JSON took 3 ms
+PAGE: /JSON|76561199048973264
+Serve JSON took 11 ms
+PAGE: /JSON|76561198964954971
+Serve JSON took 10 ms
+PAGE: /JSON|76561199044240775
+Serve JSON took 10 ms
+PAGE: /JSON|76561199531749777
+Serve JSON took 1 ms
+PAGE: /JSON|76561199587926975
+Serve JSON took 4 ms
+PAGE: /JSON|76561197969367886
+Serve JSON took 14 ms
+PAGE: /JSON|76561198064676246
+Serve JSON took 4 ms
+PAGE: /JSON|76561197982259752
+Serve JSON took 14 ms
+PAGE: /JSON|76561198254633007
+Serve JSON took 4 ms
+PAGE: /JSON|76561197993266734
+Serve JSON took 14 ms
+PAGE: /JSON|76561198131294243
+Serve JSON took 7 ms
+PAGE: /JSON|76561198063015996
+Serve JSON took 11 ms
+PAGE: /JSON|76561198355120793
+Serve JSON took 14 ms
+PAGE: /JSON|76561199127215469
+Serve JSON took 8 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 260 [na na] false 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 AC_Server 1 18 magione [bmw_m3_e30] 48 0 [1 2 3] [10 10 5] 260 [na na] false 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199172438360
+Serve JSON took 10 ms
+PAGE: /JSON|76561198043611338
+Serve JSON took 2 ms
+PAGE: /JSON|76561198222186820
+Serve JSON took 12 ms
+PAGE: /JSON|76561199179910895
+Serve JSON took 4 ms
+PAGE: /JSON|76561198086573617
+Serve JSON took 2 ms
+PAGE: /JSON|76561199270948992
+Serve JSON took 15 ms
+PAGE: /JSON|76561199235436448
+Serve JSON took 12 ms
+PAGE: /JSON|76561197961034053
+Serve JSON took 4 ms
+PAGE: /JSON|76561198320799410
+Serve JSON took 2 ms
+PAGE: /JSON|76561198255719110
+Serve JSON took 4 ms
+PAGE: /JSON|76561198262843856
+Serve JSON took 15 ms
+PAGE: /JSON|76561198396936763
+Serve JSON took 11 ms
+PAGE: /JSON|76561199138067366
+Serve JSON took 12 ms
+PAGE: /JSON|76561198160753732
+Serve JSON took 7 ms
+PAGE: /JSON|76561199466244857
+Serve JSON took 10 ms
+PAGE: /JSON|76561199014618684
+Serve JSON took 2 ms
+PAGE: /JSON|76561198853084471
+Serve JSON took 8 ms
+PAGE: /JSON|76561198977712554
+Serve JSON took 11 ms

@@ -1,0 +1,2286 @@
+Server CFG Path :  cfg/server_cfg.ini
+Entry List Path :  cfg/entry_list.ini
+Assetto Corsa Dedicated Server v1.15
+Protocol version: 202
+2024-01-13 12:26:22.3722743 -0800 PST m=+0.003628800
+Num CPU: 24
+LOCAL IP 0: fe80::7d33:a46a:ab7e:6f4c%Synology
+LOCAL IP 1: fe80::c6b7:8b72:5616:53a7%Ethernet 2
+LOCAL IP 2: 10.10.10.10
+LOCAL IP 3: 192.168.1.36
+Using cfg path:  cfg/server_cfg.ini
+Activating 4 threads
+Car list:
+_ks_lamborghini_huracan_gt3_
+_ks_lamborghini_countach_
+_ks_lamborghini_aventador_sv_
+_ks_lamborghini_sesto_elemento_
+Client interval HZ: 18
+WARNING: pitstop window needs a valid range
+WARNING: MAX_CONTACTS_PER_KM disabled
+AUTH_PLUGIN_ADDRESS 
+TRACK=santa_monica_mtns
+CARS=["ks_lamborghini_huracan_gt3" "ks_lamborghini_countach" "ks_lamborghini_aventador_sv" "ks_lamborghini_sesto_elemento"]
+Loading PRACTICE session
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+Loading QUALIFY session
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+DynamicTrack: first session, resetting grip
+Trying to load DRS zones from: content/tracks/santa_monica_mtns/g_lasFlores/data/drs_zones.ini
+open content/tracks/santa_monica_mtns/g_lasFlores/data/drs_zones.ini: The system cannot find the file specified.
+Weather update. Ambient: 15.753866 Road: 14.896141 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+CHECKSUM: system/data/surfaces.ini=41949b9f7045cad2af3f5eb951d170a9
+Initializing checksum for track config g_lasFlores
+CHECKSUM: content/tracks/santa_monica_mtns/g_lasFlores/data/surfaces.ini=87263f2f49faba4efc8f08b468ee7f5a
+CHECKSUM: content/tracks/santa_monica_mtns/models_a_stuntRace.ini=cd90f223abf7b8cadc4d83b76bbcb2ee
+CHECKSUM: content/tracks/santa_monica_mtns/models_b_theSnakeRace.ini=b7603b454eeb0ba20a4cdab409ca1ac7
+CHECKSUM: content/tracks/santa_monica_mtns/models_c_stuntFreeroam.ini=b11df878029af149ea2ecef78c388c20
+CHECKSUM: content/tracks/santa_monica_mtns/models_d_davidBrown.ini=c341795114ab821346ff6fe0cdf58c8f
+CHECKSUM: content/tracks/santa_monica_mtns/models_e_loisEwen.ini=d18665f12b6a7d7c2f4d3a4412d0a29d
+CHECKSUM: content/tracks/santa_monica_mtns/models_f_theSnake.ini=a39384c6b55e15c7c51bc1216346e5b0
+CHECKSUM: content/tracks/santa_monica_mtns/models_g_lasFlores.ini=7df94b36c59e121a1e93c4da5f24323f
+CHECKSUM: content/tracks/santa_monica_mtns/models_h_tuna.ini=86f6323efd68318b88a1e6226a436ad0
+ACD CHECKSUM:ca7b801f33814b9d786dee711a18c32c
+ACD CHECKSUM:1b36c4a14ea5f86f3485702622b91c9a
+ACD CHECKSUM:c6c7181056f04b1384cf4b8e9a7cd818
+ACD CHECKSUM:c1396d77c2d7ae967deb49c44affe1bd
+Loading blacklist
+Opening entry list:  cfg/entry_list.ini
+Found car  CAR_0
+CAR: 0 ks_lamborghini_huracan_gt3 (0) [ []]  []  Ballast: 0 kg
+CAR: 0 ks_lamborghini_huracan_gt3 (0) [ []]  []  Restrictor: 0
+open setups/ks_lamborghini_huracan_gt3.ini: The system cannot find the file specified.
+Found car  CAR_1
+CAR: 1 ks_lamborghini_countach (1) [ []]  []  Ballast: 0 kg
+CAR: 1 ks_lamborghini_countach (1) [ []]  []  Restrictor: 0
+open setups/ks_lamborghini_countach.ini: The system cannot find the file specified.
+Found car  CAR_2
+CAR: 2 ks_lamborghini_aventador_sv (2) [ []]  []  Ballast: 0 kg
+CAR: 2 ks_lamborghini_aventador_sv (2) [ []]  []  Restrictor: 0
+open setups/ks_lamborghini_aventador_sv.ini: The system cannot find the file specified.
+Found car  CAR_3
+CAR: 3 ks_lamborghini_sesto_elemento (3) [ []]  []  Ballast: 0 kg
+CAR: 3 ks_lamborghini_sesto_elemento (3) [ []]  []  Restrictor: 0
+open setups/ks_lamborghini_sesto_elemento.ini: The system cannot find the file specified.
+Found car  CAR_4
+CAR: 4 ks_lamborghini_sesto_elemento (4) [ []]  []  Ballast: 0 kg
+CAR: 4 ks_lamborghini_sesto_elemento (4) [ []]  []  Restrictor: 0
+open setups/ks_lamborghini_sesto_elemento.ini: The system cannot find the file specified.
+Warning, Pickup Mode selected and MAX_CLIENTS and entry list size do not match
+MAX_CLIENTS is now set to: 5
+Random seed: 2712062518
+Starting TCP listener at port 9600
+Session has 0 laps, will not save json
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+Starting HTTP server on port  8081
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 15.216839 Road: 13.9056835 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+No laptime available, use car index for grids
+POS: 1, SessionID:0
+POS: 2, SessionID:1
+POS: 3, SessionID:2
+POS: 4, SessionID:3
+POS: 5, SessionID:4
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+Server started
+PAGE: /JSON|76561197971224462
+Serve JSON took 9 ms
+PAGE: /JSON|76561199140248772
+Serve JSON took 40 ms
+Registering to AC central server
+CALLING http://93.57.10.21/lobby.ashx/register?name=Eddie%27s+AC+Server&port=9600&tcp_port=9600&max_clients=5&track=santa_monica_mtns-g_lasFlores&cars=ks_lamborghini_huracan_gt3%2Cks_lamborghini_countach%2Cks_lamborghini_aventador_sv%2Cks_lamborghini_sesto_elemento&timeofday=48&sessions=1,2,3&durations=600,600,5&password=1&version=202&pickup=1&autoclutch=0&abs=1&tc=1&stability=0&legal_tyres=&fixed_setup=0&timed=0&extra=0&pit=0&inverted=0
+RESPONSE: OK,0,8081
+CONNECTED TO LOBBY
+RESTARTING FROM SESSION 0
+Session has 0 laps, will not save json
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 17.777903 Road: 24.521912 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PAGE: /JSON|76561198108322797
+Serve JSON took 10 ms
+PAGE: /JSON|76561198192707167
+Serve JSON took 34 ms
+PAGE: /JSON|76561198202862128
+Serve JSON took 7 ms
+PAGE: /JSON|76561198991190752
+Serve JSON took 2 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 596 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 596 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 45 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 594 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 594 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199216435049
+Serve JSON took 43 ms
+PAGE: /JSON|76561198063715630
+Serve JSON took 30 ms
+PAGE: /JSON|76561199347935074
+Serve JSON took 13 ms
+PAGE: /JSON|76561198940902983
+Serve JSON took 26 ms
+PAGE: /JSON|76561198880116733
+Serve JSON took 25 ms
+PAGE: /JSON|76561198191743591
+Serve JSON took 50 ms
+PAGE: /JSON|76561198169974793
+Serve JSON took 41 ms
+PAGE: /JSON|76561199230702529
+Serve JSON took 34 ms
+PAGE: /JSON|76561199509460354
+Serve JSON took 47 ms
+PAGE: /JSON|76561199278059263
+Serve JSON took 16 ms
+PAGE: /JSON|76561198122575021
+Serve JSON took 45 ms
+PAGE: /JSON|76561198888003456
+Serve JSON took 23 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 579 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 579 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199189112414
+Serve JSON took 5 ms
+PAGE: /JSON|76561199050022427
+Serve JSON took 19 ms
+PAGE: /JSON|76561199275194292
+Serve JSON took 32 ms
+PAGE: /JSON|76561199122172415
+Serve JSON took 4 ms
+PAGE: /JSON|76561199188408453
+Serve JSON took 47 ms
+PAGE: /JSON|76561199008788327
+Serve JSON took 16 ms
+PAGE: /JSON|76561198299798399
+Serve JSON took 39 ms
+PAGE: /JSON|76561198179103067
+Serve JSON took 43 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 564 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 564 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199040645362
+Serve JSON took 38 ms
+PAGE: /JSON|76561198853450216
+Serve JSON took 5 ms
+PAGE: /JSON|76561198377932600
+Serve JSON took 13 ms
+PAGE: /JSON|76561199379889192
+Serve JSON took 44 ms
+PAGE: /JSON|76561199126118900
+Serve JSON took 11 ms
+PAGE: /JSON|76561199445827616
+Serve JSON took 2 ms
+PAGE: /JSON|76561199079899352
+Serve JSON took 44 ms
+PAGE: /JSON|76561198965372341
+PAGE: /JSON|76561198957359571
+Serve JSON took 47 ms
+Serve JSON took 57 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 549 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 549 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199252250912
+Serve JSON took 24 ms
+PAGE: /JSON|76561197997009659
+Serve JSON took 49 ms
+PAGE: /JSON|76561198000743412
+Serve JSON took 14 ms
+PAGE: /JSON|76561198959797084
+Serve JSON took 42 ms
+PAGE: /
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 534 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 534 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198991373480
+Serve JSON took 27 ms
+PAGE: /JSON|76561198360513574
+Serve JSON took 26 ms
+PAGE: /JSON|76561197995403281
+Serve JSON took 5 ms
+PAGE: /JSON|76561199083340103
+Serve JSON took 40 ms
+PAGE: /JSON|76561198988435774
+Serve JSON took 4 ms
+PAGE: /JSON|76561198118976381
+Serve JSON took 38 ms
+PAGE: /JSON|76561197960267366
+Serve JSON took 21 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 519 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 519 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198334294637
+Serve JSON took 8 ms
+PAGE: /JSON|76561198804272084
+Serve JSON took 48 ms
+PAGE: /JSON|76561198398782966
+Serve JSON took 48 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 504 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 504 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199523061024
+Serve JSON took 50 ms
+PAGE: /JSON|76561199124589679
+Serve JSON took 47 ms
+PAGE: /JSON|76561198807627953
+Serve JSON took 34 ms
+PAGE: /JSON|76561198302830848
+Serve JSON took 49 ms
+PAGE: /JSON|76561199224000856
+Serve JSON took 27 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 489 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 489 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199478461790
+Serve JSON took 49 ms
+PAGE: /JSON|76561198345938750
+Serve JSON took 4 ms
+PAGE: /JSON|76561198804279744
+Serve JSON took 1 ms
+PAGE: /JSON|76561198265032100
+Serve JSON took 50 ms
+PAGE: /JSON|76561198802427029
+Serve JSON took 29 ms
+PAGE: /JSON|76561198330998788
+Serve JSON took 15 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 474 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 474 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198983342583
+Serve JSON took 39 ms
+PAGE: /JSON|76561198430526421
+Serve JSON took 11 ms
+PAGE: /JSON|76561198981405787
+Serve JSON took 24 ms
+PAGE: /JSON|76561199077648272
+Serve JSON took 17 ms
+PAGE: /JSON|76561198427953124
+Serve JSON took 44 ms
+PAGE: /JSON|76561199080837356
+Serve JSON took 40 ms
+PAGE: /JSON|76561199499256342
+Serve JSON took 29 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 459 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 459 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199172583508
+Serve JSON took 34 ms
+PAGE: /JSON|76561199004252330
+Serve JSON took 48 ms
+PAGE: /JSON|76561198973190224
+Serve JSON took 12 ms
+PAGE: /JSON|76561199439570002
+Serve JSON took 37 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 444 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 444 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198099785871
+Serve JSON took 29 ms
+PAGE: /JSON|76561199213278043
+Serve JSON took 29 ms
+PAGE: /JSON|76561199056693463
+Serve JSON took 20 ms
+PAGE: /JSON|76561198358777356
+Serve JSON took 39 ms
+PAGE: /JSON|76561198444601849
+Serve JSON took 19 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 429 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 429 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199229027387
+Serve JSON took 23 ms
+PAGE: /JSON|76561199191693642
+Serve JSON took 7 ms
+PAGE: /JSON|76561199258906532
+Serve JSON took 12 ms
+PAGE: /JSON|76561198036708366
+Serve JSON took 8 ms
+PAGE: /JSON|76561198935048072
+Serve JSON took 7 ms
+PAGE: /JSON|76561199596597751
+Serve JSON took 36 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 414 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 414 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199476340463
+Serve JSON took 38 ms
+PAGE: /JSON|76561198806657521
+Serve JSON took 12 ms
+PAGE: /JSON|76561197977007583
+Serve JSON took 47 ms
+PAGE: /JSON|76561198995906539
+Serve JSON took 9 ms
+PAGE: /JSON|76561198171769557
+Serve JSON took 44 ms
+PAGE: /JSON|76561199048290595
+Serve JSON took 27 ms
+PAGE: /JSON|76561199554898721
+Serve JSON took 42 ms
+PAGE: /JSON|76561198354741340
+PAGE: /JSON|76561199095525880
+Serve JSON took 45 ms
+Serve JSON took 77 ms
+PAGE: /JSON|76561199236906921
+Serve JSON took 30 ms
+PAGE: /JSON|76561199133417799
+Serve JSON took 28 ms
+PAGE: /JSON|76561198116772802
+Serve JSON took 36 ms
+PAGE: /JSON|76561199065333679
+Serve JSON took 50 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 399 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 399 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198868130865
+Serve JSON took 43 ms
+PAGE: /JSON|76561199040875835
+Serve JSON took 38 ms
+PAGE: /JSON|76561198390979984
+Serve JSON took 43 ms
+PAGE: /JSON|76561199487591613
+Serve JSON took 22 ms
+PAGE: /JSON|76561198080634673
+Serve JSON took 43 ms
+PAGE: /JSON|76561199090063568
+Serve JSON took 40 ms
+PAGE: /JSON|76561199412200386
+Serve JSON took 31 ms
+PAGE: /JSON|76561198074677584
+Serve JSON took 16 ms
+PAGE: /JSON|76561199211286667
+Serve JSON took 37 ms
+PAGE: /JSON|76561199039738979
+Serve JSON took 11 ms
+PAGE: /JSON|76561197967071015
+Serve JSON took 33 ms
+PAGE: /JSON|76561199068331252
+Serve JSON took 20 ms
+PAGE: /JSON|76561198135322292
+Serve JSON took 31 ms
+PAGE: /JSON|76561199603830414
+Serve JSON took 5 ms
+PAGE: /JSON|76561198038206769
+Serve JSON took 36 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 383 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 383 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198807607986
+Serve JSON took 23 ms
+PAGE: /JSON|76561198150950352
+Serve JSON took 29 ms
+PAGE: /JSON|76561198071776314
+Serve JSON took 5 ms
+PAGE: /JSON|76561198194951389
+Serve JSON took 8 ms
+PAGE: /JSON|76561197998311317
+Serve JSON took 2 ms
+PAGE: /JSON|76561198843161917
+Serve JSON took 36 ms
+PAGE: /JSON|76561198879064060
+Serve JSON took 40 ms
+PAGE: /JSON|76561198041370728
+Serve JSON took 1 ms
+PAGE: /JSON|76561199013224137
+Serve JSON took 40 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 371 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 371 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199466774448
+Serve JSON took 38 ms
+PAGE: /JSON|76561199074367055
+Serve JSON took 8 ms
+PAGE: /JSON|76561199144177907
+Serve JSON took 15 ms
+PAGE: /JSON|76561199390243789
+Serve JSON took 4 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 368 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 368 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198127940812
+Serve JSON took 35 ms
+PAGE: /JSON|76561199167766055
+Serve JSON took 6 ms
+PAGE: /JSON|76561198370826145
+Serve JSON took 27 ms
+PAGE: /JSON|76561198354931302
+Serve JSON took 18 ms
+PAGE: /JSON|76561198036517130
+Serve JSON took 37 ms
+PAGE: /JSON|76561199098529413
+Serve JSON took 38 ms
+PAGE: /JSON|76561199372190950
+Serve JSON took 38 ms
+PAGE: /JSON|76561198083075591
+Serve JSON took 17 ms
+PAGE: /JSON|76561199022480616
+Serve JSON took 30 ms
+PAGE: /JSON|76561198046242517
+Serve JSON took 24 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 353 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 353 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199559540102
+Serve JSON took 1 ms
+PAGE: /JSON|76561198879717929
+Serve JSON took 49 ms
+PAGE: /JSON|76561199232703647
+Serve JSON took 24 ms
+PAGE: /JSON|76561199146483223
+Serve JSON took 16 ms
+PAGE: /JSON|76561199211953626
+Serve JSON took 16 ms
+PAGE: /JSON|76561198093955272
+Serve JSON took 10 ms
+PAGE: /JSON|76561198030438568
+Serve JSON took 2 ms
+PAGE: /JSON|76561198857382016
+Serve JSON took 23 ms
+PAGE: /JSON|76561199045214633
+Serve JSON took 18 ms
+PAGE: /JSON|76561199049616727
+Serve JSON took 7 ms
+PAGE: /JSON|76561198155938508
+Serve JSON took 40 ms
+PAGE: /JSON|76561199105985369
+Serve JSON took 22 ms
+PAGE: /JSON|76561197971931503
+Serve JSON took 36 ms
+PAGE: /JSON|76561198195149253
+Serve JSON took 30 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 338 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 338 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198979336578
+Serve JSON took 49 ms
+PAGE: /JSON|76561197974975382
+Serve JSON took 41 ms
+PAGE: /JSON|76561198332674565
+Serve JSON took 36 ms
+PAGE: /JSON|76561199497574894
+Serve JSON took 36 ms
+PAGE: /JSON|76561199077419005
+Serve JSON took 44 ms
+PAGE: /JSON|76561198187649326
+Serve JSON took 34 ms
+PAGE: /JSON|76561199109964053
+Serve JSON took 43 ms
+PAGE: /JSON|76561198021330284
+Serve JSON took 32 ms
+PAGE: /JSON|76561199486420728
+Serve JSON took 21 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 323 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 323 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199071847593
+Serve JSON took 11 ms
+PAGE: /JSON|76561199586658827
+Serve JSON took 24 ms
+PAGE: /JSON|76561199085793494
+Serve JSON took 4 ms
+PAGE: /JSON|76561199482869459
+Serve JSON took 15 ms
+PAGE: /JSON|76561199087758905
+Serve JSON took 49 ms
+PAGE: /JSON|76561199109872507
+Serve JSON took 1 ms
+PAGE: /JSON|76561199390969088
+Serve JSON took 8 ms
+PAGE: /JSON|76561199422856290
+Serve JSON took 50 ms
+PAGE: /JSON|76561199443227949
+Serve JSON took 48 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 308 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 308 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199207640653
+Serve JSON took 47 ms
+PAGE: /JSON|76561199126665851
+Serve JSON took 48 ms
+PAGE: /JSON|76561198980973303
+Serve JSON took 44 ms
+PAGE: /JSON|76561199548143111
+Serve JSON took 44 ms
+PAGE: /JSON|76561198235216888
+Serve JSON took 44 ms
+PAGE: /JSON|76561198373027089
+Serve JSON took 24 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 293 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 293 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199169953711
+Serve JSON took 9 ms
+PAGE: /JSON|76561199097443970
+Serve JSON took 38 ms
+PAGE: /JSON|76561199062551110
+Serve JSON took 36 ms
+PAGE: /JSON|76561199230864821
+Serve JSON took 35 ms
+PAGE: /JSON|76561198813174311
+Serve JSON took 37 ms
+PAGE: /JSON|76561198411128437
+Serve JSON took 47 ms
+PAGE: /JSON|76561198360130084
+Serve JSON took 22 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 278 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 278 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198211963805
+Serve JSON took 23 ms
+PAGE: /JSON|76561197999245534
+Serve JSON took 27 ms
+PAGE: /JSON|76561199405642240
+Serve JSON took 5 ms
+PAGE: /JSON|76561198062530946
+Serve JSON took 18 ms
+PAGE: /JSON|76561199416533467
+Serve JSON took 4 ms
+PAGE: /JSON|76561199222312475
+Serve JSON took 30 ms
+PAGE: /JSON|76561199471582531
+Serve JSON took 41 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 263 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 263 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198382975907
+PAGE: /JSON|76561198991123074
+Serve JSON took 25 ms
+Serve JSON took 73 ms
+PAGE: /JSON|76561199103650408
+Serve JSON took 22 ms
+PAGE: /JSON|76561198166909226
+Serve JSON took 25 ms
+PAGE: /JSON|76561199439216995
+Serve JSON took 44 ms
+PAGE: /JSON|76561198994808574
+Serve JSON took 26 ms
+PAGE: /JSON|76561199132322372
+Serve JSON took 4 ms
+PAGE: /JSON|76561198935762173
+Serve JSON took 17 ms
+PAGE: /JSON|76561199057962409
+Serve JSON took 9 ms
+PAGE: /JSON|76561198821915509
+Serve JSON took 14 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 248 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 248 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198853652137
+Serve JSON took 43 ms
+PAGE: /JSON|76561198015429127
+Serve JSON took 25 ms
+PAGE: /JSON|76561199078226722
+Serve JSON took 20 ms
+PAGE: /JSON|76561199132689911
+Serve JSON took 43 ms
+PAGE: /JSON|76561198289744438
+Serve JSON took 16 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 233 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 233 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 218 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 218 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 203 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 203 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 188 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 188 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 173 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 173 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 158 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 158 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 143 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 143 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 128 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 128 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 113 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 113 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 98 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 98 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 83 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 83 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 68 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 68 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 53 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 53 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 38 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 38 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 23 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 23 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 8 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 8 [na na] true 0 <nil> false true 9600 false false false 0}
+PRACTICE OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -6 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -6 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -21 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -21 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -36 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -36 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -51 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -51 [na na] true 0 <nil> false true 9600 false false false 0}
+Session has 0 laps, will not save json
+NextSession
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: current_grip= 0.93341213  transfer= 0.9  sessiongrip= 0.9387445
+Weather update. Ambient: 14.515825 Road: 13.580296 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Qualify
+SENDING session index : 1
+SENDING session type : 2
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=2&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 593 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 593 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 578 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 578 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 563 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 563 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 548 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 548 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 533 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 533 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 517 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 517 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 502 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 502 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 487 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 487 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 472 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 472 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 457 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 457 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 442 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 442 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 427 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 427 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 412 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 412 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 397 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 397 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 382 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 382 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 367 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 367 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 352 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 352 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 337 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 337 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 322 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 322 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 307 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 307 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 292 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 292 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 277 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 277 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 262 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 262 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 247 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 247 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 232 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 232 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 217 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 217 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 202 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 202 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 187 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 187 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 172 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 172 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 157 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 157 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 142 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 142 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 127 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 127 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 112 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 112 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 97 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 97 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 82 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 82 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 67 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 67 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 52 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 52 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 37 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 37 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 22 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 22 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 7 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] 7 [na na] true 0 <nil> false true 9600 false false false 0}
+QUALIFY OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -7 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -7 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -22 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -22 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -37 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -37 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -52 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 1 [1 2 3] [10 10 5] -52 [na na] true 0 <nil> false true 9600 false false false 0}
+Session has 0 laps, will not save json
+NextSession
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+RACE, WaitTime: 60000 START TIME: 1381759
+DynamicTrack: current_grip= 0.9387445  transfer= 0.9  sessiongrip= 0.92203635
+Weather update. Ambient: 18.802843 Road: 24.660389 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Race
+SENDING session index : 2
+SENDING session type : 3
+SENDING session time : 0
+SENDING session laps : 5
+SENDING session Timed Race: false
+SENDING http://93.57.10.21/lobby.ashx/ping?session=3&timeleft=5&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 52 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 52 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 37 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 37 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 21 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 21 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 6 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 2 [1 2 3] [10 10 5] 6 [na na] true 0 <nil> false true 9600 false false false 0}
+No cars connected, move to next session
+Session has 0 laps, will not save json
+Server looping
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 18.461817 Road: 24.180918 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 591 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 591 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 576 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 576 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 561 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 561 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 546 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 546 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 531 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 531 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 516 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 516 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 501 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 501 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 486 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 486 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 471 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 471 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 456 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 456 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 441 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 441 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 426 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 426 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 411 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 411 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 396 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 396 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 381 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 381 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 366 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 366 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 351 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 351 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 336 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 336 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 321 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 321 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 306 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 306 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 291 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 291 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199245313778
+Serve JSON took 43 ms
+PAGE: /JSON|76561198133652441
+Serve JSON took 32 ms
+PAGE: /JSON|76561198985997263
+Serve JSON took 18 ms
+PAGE: /JSON|76561198131125738
+Serve JSON took 11 ms
+PAGE: /JSON|76561199058939454
+Serve JSON took 50 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 273 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 273 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 50 ms
+PAGE: /JSON|76561199439395708
+Serve JSON took 40 ms
+PAGE: /JSON|76561199227578442
+Serve JSON took 26 ms
+PAGE: /JSON|76561199494601385
+Serve JSON took 57 ms
+PAGE: /JSON|76561199010572041
+Serve JSON took 58 ms
+PAGE: /JSON|76561199230000954
+Serve JSON took 11 ms
+PAGE: /JSON|76561198041613278
+Serve JSON took 2 ms
+PAGE: /JSON|76561198026007434
+Serve JSON took 52 ms
+PAGE: /JSON|76561198325154824
+Serve JSON took 38 ms
+PAGE: /JSON|76561199208715787
+Serve JSON took 55 ms
+PAGE: /JSON|76561198007142287
+Serve JSON took 38 ms
+PAGE: /JSON|76561199264584263
+Serve JSON took 51 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 262 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 262 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 60 ms
+PAGE: /JSON|76561198037841064
+Serve JSON took 64 ms
+PAGE: /JSON|76561198347793824
+Serve JSON took 44 ms
+PAGE: /JSON|76561198282905965
+Serve JSON took 23 ms
+PAGE: /JSON|76561198132571332
+Serve JSON took 37 ms
+PAGE: /JSON|76561199126665851
+Serve JSON took 3 ms
+PAGE: /JSON|76561198980787381
+Serve JSON took 29 ms
+PAGE: /JSON|76561199190462668
+Serve JSON took 34 ms
+PAGE: /JSON|76561197986708557
+Serve JSON took 26 ms
+PAGE: /JSON|76561199139499319
+Serve JSON took 29 ms
+PAGE: /JSON|76561198312047412
+Serve JSON took 51 ms
+PAGE: /JSON|76561198014480150
+Serve JSON took 34 ms
+PAGE: /JSON|76561198333291746
+Serve JSON took 2 ms
+PAGE: /JSON|76561198413883786
+Serve JSON took 47 ms
+PAGE: /JSON|76561198300627010
+Serve JSON took 60 ms
+PAGE: /JSON|76561198014894336
+Serve JSON took 32 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 252 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 252 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 62 ms
+PAGE: /JSON|76561199366693178
+Serve JSON took 29 ms
+PAGE: /JSON|76561198175745650
+Serve JSON took 36 ms
+PAGE: /JSON|76561199466609329
+Serve JSON took 17 ms
+PAGE: /JSON|76561198274517399
+Serve JSON took 36 ms
+PAGE: /JSON|76561198042622202
+Serve JSON took 19 ms
+PAGE: /JSON|76561198019495909
+Serve JSON took 34 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 242 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 242 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /JSON|76561198290949423
+Serve JSON took 26 ms
+PAGE: /JSON|76561198402251282
+Serve JSON took 47 ms
+PAGE: /JSON|76561199080526181
+Serve JSON took 27 ms
+PAGE: /JSON|76561199549830410
+Serve JSON took 42 ms
+PAGE: /JSON|76561198400977309
+Serve JSON took 30 ms
+PAGE: /JSON|76561197999214130
+Serve JSON took 30 ms
+PAGE: /JSON|76561199479533290
+Serve JSON took 20 ms
+PAGE: /JSON|76561199116941018
+Serve JSON took 56 ms
+PAGE: /JSON|76561199273732960
+Serve JSON took 62 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 232 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 232 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 56 ms
+PAGE: /JSON|76561198452661815
+PAGE: /JSON|76561198351033270
+Serve JSON took 46 ms
+Serve JSON took 92 ms
+PAGE: /JSON|76561199083939585
+Serve JSON took 58 ms
+PAGE: /JSON|76561198980728954
+Serve JSON took 63 ms
+PAGE: /JSON|76561198926850894
+Serve JSON took 3 ms
+PAGE: /JSON|76561198010994846
+Serve JSON took 54 ms
+PAGE: /JSON|76561199495570057
+Serve JSON took 55 ms
+PAGE: /JSON|76561198979971162
+Serve JSON took 34 ms
+PAGE: /JSON|76561199403856506
+Serve JSON took 62 ms
+PAGE: /JSON|76561198193952469
+Serve JSON took 23 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 222 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 222 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 63 ms
+PAGE: /JSON|76561198845858240
+Serve JSON took 59 ms
+PAGE: /JSON|76561198359844291
+Serve JSON took 28 ms
+PAGE: /JSON|76561199219881610
+Serve JSON took 10 ms
+PAGE: /JSON|76561199037919890
+Serve JSON took 61 ms
+PAGE: /JSON|76561198002068415
+Serve JSON took 44 ms
+PAGE: /JSON|76561199231208537
+Serve JSON took 14 ms
+PAGE: /JSON|76561198116356592
+Serve JSON took 9 ms
+PAGE: /JSON|76561198797814998
+Serve JSON took 16 ms
+PAGE: /JSON|76561198163633491
+Serve JSON took 53 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 212 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 212 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /JSON|76561197988178584
+Serve JSON took 21 ms
+PAGE: /JSON|76561198939364296
+Serve JSON took 1 ms
+PAGE: /JSON|76561198214371195
+Serve JSON took 41 ms
+PAGE: /JSON|76561198288085268
+Serve JSON took 4 ms
+PAGE: /JSON|76561199226526198
+Serve JSON took 19 ms
+PAGE: /JSON|76561197982706943
+Serve JSON took 23 ms
+PAGE: /JSON|76561198338760833
+Serve JSON took 8 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 202 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 202 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 43 ms
+PAGE: /JSON|76561199552499878
+Serve JSON took 16 ms
+PAGE: /JSON|76561198452062884
+Serve JSON took 49 ms
+PAGE: /JSON|76561199224546806
+Serve JSON took 49 ms
+PAGE: /JSON|76561198143069416
+Serve JSON took 1 ms
+PAGE: /JSON|76561199466444368
+Serve JSON took 24 ms
+PAGE: /JSON|76561198841932871
+Serve JSON took 4 ms
+PAGE: /JSON|76561198874715090
+Serve JSON took 24 ms
+PAGE: /JSON|76561198188149581
+Serve JSON took 37 ms
+PAGE: /JSON|76561199244645095
+Serve JSON took 28 ms
+PAGE: /JSON|76561198272595874
+Serve JSON took 36 ms
+PAGE: /JSON|76561199108445638
+Serve JSON took 1 ms
+PAGE: /JSON|76561199085542155
+Serve JSON took 43 ms
+PAGE: /JSON|76561199213088997
+Serve JSON took 2 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 192 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 192 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /JSON|76561198308827842
+Serve JSON took 16 ms
+PAGE: /JSON|76561199027978922
+Serve JSON took 1 ms
+PAGE: /JSON|76561198429955127
+Serve JSON took 2 ms
+PAGE: /JSON|76561198835535292
+Serve JSON took 11 ms
+PAGE: /JSON|76561199092742860
+Serve JSON took 21 ms
+PAGE: /JSON|76561199051674017
+Serve JSON took 21 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 182 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 182 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /JSON|76561199195319968
+Serve JSON took 50 ms
+PAGE: /JSON|76561199064708312
+Serve JSON took 51 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 172 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 172 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 62 ms
+PAGE: /JSON|76561199083704740
+Serve JSON took 42 ms
+PAGE: /JSON|76561198223956152
+Serve JSON took 60 ms
+PAGE: /JSON|76561198002513199
+Serve JSON took 35 ms
+PAGE: /JSON|76561198161509245
+Serve JSON took 37 ms
+PAGE: /JSON|76561199251377588
+Serve JSON took 18 ms
+PAGE: /JSON|76561198884511713
+Serve JSON took 59 ms
+PAGE: /JSON|76561199540351516
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 162 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 162 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 84 ms
+Serve JSON took 121 ms
+PAGE: /JSON|76561198359645626
+Serve JSON took 22 ms
+PAGE: /JSON|76561198262794747
+Serve JSON took 22 ms
+PAGE: /JSON|76561199367518110
+Serve JSON took 13 ms
+PAGE: /JSON|76561198450078846
+Serve JSON took 7 ms
+PAGE: /JSON|76561199013149490
+Serve JSON took 20 ms
+PAGE: /JSON|76561198993152193
+Serve JSON took 29 ms
+PAGE: /JSON|76561198197404546
+Serve JSON took 11 ms
+PAGE: /JSON|76561198812735322
+Serve JSON took 25 ms
+PAGE: /JSON|76561199467156285
+Serve JSON took 42 ms
+PAGE: /JSON|76561199213721483
+Serve JSON took 58 ms
+PAGE: /JSON|76561199137857654
+Serve JSON took 57 ms
+PAGE: /JSON|76561199251679396
+Serve JSON took 41 ms
+PAGE: /JSON|76561198408921026
+Serve JSON took 40 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 152 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 152 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 62 ms
+PAGE: /JSON|76561199012595765
+Serve JSON took 28 ms
+PAGE: /JSON|76561198351269007
+PAGE: /JSON|76561198989119368
+Serve JSON took 29 ms
+Serve JSON took 67 ms
+PAGE: /JSON|76561198846884325
+Serve JSON took 20 ms
+PAGE: /JSON|76561198358794424
+Serve JSON took 21 ms
+PAGE: /JSON|76561199224599764
+Serve JSON took 25 ms
+PAGE: /JSON|76561199150210698
+Serve JSON took 36 ms
+PAGE: /JSON|76561198016865821
+Serve JSON took 19 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 142 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 142 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 61 ms
+PAGE: /JSON|76561198078018393
+Serve JSON took 27 ms
+PAGE: /JSON|76561199014132066
+Serve JSON took 14 ms
+PAGE: /JSON|76561199602603727
+Serve JSON took 60 ms
+PAGE: /JSON|76561198799430556
+Serve JSON took 14 ms
+PAGE: /JSON|76561199261509561
+Serve JSON took 36 ms
+PAGE: /JSON|76561199210839851
+Serve JSON took 52 ms
+PAGE: /JSON|76561198157737423
+Serve JSON took 49 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 132 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 132 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 62 ms
+PAGE: /JSON|76561198854532755
+Serve JSON took 36 ms
+PAGE: /JSON|76561198092272365
+Serve JSON took 34 ms
+PAGE: /JSON|76561197973462955
+Serve JSON took 26 ms
+PAGE: /JSON|76561198005212047
+Serve JSON took 9 ms
+PAGE: /JSON|76561198993795781
+Serve JSON took 24 ms
+PAGE: /JSON|76561198126804567
+Serve JSON took 23 ms
+PAGE: /JSON|76561198879667133
+Serve JSON took 44 ms
+PAGE: /JSON|76561199003299084
+Serve JSON took 61 ms
+PAGE: /JSON|76561199497593104
+Serve JSON took 34 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 122 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 122 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 58 ms
+PAGE: /JSON|76561198095836989
+Serve JSON took 5 ms
+PAGE: /JSON|76561198087968402
+Serve JSON took 53 ms
+PAGE: /JSON|76561199042381592
+Serve JSON took 7 ms
+PAGE: /JSON|76561198043213440
+PAGE: /JSON|76561198105008978
+Serve JSON took 38 ms
+PAGE: /JSON|76561198971232181
+Serve JSON took 63 ms
+Serve JSON took 121 ms
+PAGE: /JSON|76561198989254124
+Serve JSON took 21 ms
+PAGE: /JSON|76561199052822805
+Serve JSON took 53 ms
+PAGE: /JSON|76561199445910098
+Serve JSON took 46 ms
+PAGE: /JSON|76561198877876404
+Serve JSON took 25 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 112 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 112 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 60 ms
+PAGE: /JSON|76561198282120312
+Serve JSON took 49 ms
+PAGE: /JSON|76561198278727618
+Serve JSON took 12 ms
+PAGE: /JSON|76561198028832434
+Serve JSON took 19 ms
+PAGE: /JSON|76561199469209952
+Serve JSON took 13 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 102 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] 102 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561199092977736
+Serve JSON took 60 ms
+PAGE: /JSON|76561199097317324
+Serve JSON took 30 ms
+PAGE: /JSON|76561198411854688
+Serve JSON took 63 ms
+PAGE: /JSON|76561199086707395
+Serve JSON took 42 ms
+PAGE: /JSON|76561198042243751
+Serve JSON took 30 ms
+PAGE: /JSON|76561198019771405
+Serve JSON took 16 ms
+PAGE: /JSON|76561198206032079
+PAGE: /JSON|76561198315374365
+Serve JSON took 25 ms
+Serve JSON took 83 ms
+PAGE: /JSON|76561198056082695
+Serve JSON took 2 ms
+PAGE: /JSON|76561198813297148
+Serve JSON took 17 ms
+PAGE: /JSON|76561198861945600
+Serve JSON took 44 ms
+PAGE: /JSON|76561198797285380
+Serve JSON took 53 ms
+PAGE: /JSON|76561198434672225
+Serve JSON took 15 ms
+PAGE: /JSON|76561198282044441
+Serve JSON took 22 ms
+PAGE: /JSON|76561199123059942
+Serve JSON took 19 ms
+PAGE: /JSON|76561199113967281
+Serve JSON took 61 ms
+PAGE: /JSON|76561199104515951
+Serve JSON took 4 ms
+PAGE: /JSON|76561198081846737
+PAGE: /JSON|76561198406279279
+Serve JSON took 45 ms
+PAGE: /JSON|76561198130376896
+Serve JSON took 79 ms
+Serve JSON took 118 ms
+PAGE: /JSON|76561199593468148
+Serve JSON took 28 ms
+PAGE: /JSON|76561199585602714
+Serve JSON took 39 ms
+PAGE: /JSON|76561199468318457
+Serve JSON took 17 ms
+PAGE: /JSON|76561199074824513
+Serve JSON took 39 ms
+PAGE: /JSON|76561198268932970
+Serve JSON took 21 ms
+PAGE: /JSON|76561199242751023
+Serve JSON took 24 ms
+PAGE: /JSON|76561199260747724
+Serve JSON took 31 ms
+PAGE: /JSON|76561198035015748
+Serve JSON took 25 ms
+PAGE: /JSON|76561198012618010
+PAGE: /JSON|76561198138211562
+Serve JSON took 26 ms
+Serve JSON took 69 ms
+PAGE: /JSON|76561198187292563
+Serve JSON took 36 ms
+PAGE: /JSON|76561198137736262
+Serve JSON took 44 ms
+PAGE: /JSON|76561198991942484
+Serve JSON took 25 ms
+PAGE: /JSON|76561199539994252
+Serve JSON took 42 ms
+PAGE: /JSON|76561198300932333
+Serve JSON took 40 ms
+PAGE: /JSON|76561199064970868
+Serve JSON took 30 ms
+PAGE: /JSON|76561198035377762
+Serve JSON took 3 ms
+PAGE: /JSON|76561198210339092
+Serve JSON took 43 ms
+PAGE: /JSON|76561198878791819
+Serve JSON took 33 ms
+PAGE: /JSON|76561199103067974
+Serve JSON took 27 ms
+PAGE: /JSON|76561198193952469
+Serve JSON took 4 ms
+PAGE: /JSON|76561198969305182
+Serve JSON took 20 ms
+PAGE: /JSON|76561199100630071
+Serve JSON took 25 ms
+PAGE: /JSON|76561199211100950
+Serve JSON took 29 ms
+PAGE: /JSON|76561198341053752
+Serve JSON took 21 ms
+PAGE: /JSON|76561198134947859
+Serve JSON took 49 ms
+PAGE: /JSON|76561199213749742
+Serve JSON took 4 ms
+PAGE: /JSON|76561197984299571
+Serve JSON took 45 ms
+PAGE: /JSON|76561198189566947
+Serve JSON took 41 ms
+PAGE: /JSON|76561198248909110
+Serve JSON took 2 ms
+PAGE: /JSON|76561199497152399
+Serve JSON took 50 ms
+PAGE: /JSON|76561199042111751
+PAGE: /JSON|76561198331245757
+Serve JSON took 11 ms
+Serve JSON took 61 ms
+PAGE: /JSON|76561199061993034
+PAGE: /JSON|76561198142288107
+Serve JSON took 48 ms
+Serve JSON took 80 ms
+PAGE: /JSON|76561198882220218
+Serve JSON took 2 ms
+PAGE: /JSON|76561198308139312
+Serve JSON took 46 ms
+PAGE: /JSON|76561198177431550
+Serve JSON took 15 ms
+PAGE: /JSON|76561199429785701
+Serve JSON took 34 ms
+PAGE: /JSON|76561198969567801
+Serve JSON took 29 ms
+PAGE: /JSON|76561199117040491
+Serve JSON took 33 ms
+PAGE: /JSON|76561198957872516
+Serve JSON took 24 ms
+PAGE: /JSON|76561199261482155
+Serve JSON took 36 ms
+PAGE: /JSON|76561199387590902
+Serve JSON took 8 ms
+PAGE: /JSON|76561198271854348
+Serve JSON took 19 ms
+PAGE: /JSON|76561198293284805
+Serve JSON took 9 ms
+PAGE: /JSON|76561199442434548
+Serve JSON took 27 ms
+PAGE: /JSON|76561198058501941
+Serve JSON took 25 ms
+PAGE: /JSON|76561199017221766
+Serve JSON took 7 ms
+PAGE: /JSON|76561199037483872
+Serve JSON took 34 ms
+PAGE: /JSON|76561199053422496
+Serve JSON took 43 ms
+PAGE: /JSON|76561199055456557
+Serve JSON took 18 ms
+PAGE: /JSON|76561199353115973
+Serve JSON took 38 ms
+PAGE: /JSON|76561199476387196
+Serve JSON took 46 ms
+PAGE: /JSON|76561198377988854
+Serve JSON took 37 ms
+PAGE: /JSON|76561199037913645
+Serve JSON took 24 ms
+PAGE: /JSON|76561199384472827
+Serve JSON took 39 ms
+PAGE: /JSON|76561199061661563
+Serve JSON took 50 ms
+PAGE: /JSON|76561198142059043
+Serve JSON took 11 ms
+PAGE: /JSON|76561198070395775
+Serve JSON took 41 ms
+PAGE: /JSON|90071996842377217
+Serve JSON took 31 ms
+PAGE: /JSON|76561199575002592
+Serve JSON took 38 ms
+PAGE: /JSON|76561198314678791
+Serve JSON took 2 ms
+PAGE: /JSON|76561198397437426
+Serve JSON took 24 ms
+PAGE: /JSON|76561199073664295
+Serve JSON took 25 ms
+PAGE: /JSON|76561199579694535
+Serve JSON took 46 ms
+PAGE: /JSON|76561199127057654
+Serve JSON took 30 ms
+PAGE: /JSON|76561198135962259
+Serve JSON took 4 ms
+PAGE: /JSON|76561198136039902
+Serve JSON took 33 ms
+PAGE: /JSON|76561199169845794
+Serve JSON took 17 ms
+PAGE: /JSON|76561198236793746
+Serve JSON took 1 ms
+PAGE: /JSON|76561199019008827
+Serve JSON took 17 ms
+PAGE: /JSON|76561198124240317
+Serve JSON took 3 ms
+PAGE: /JSON|76561199234915319
+Serve JSON took 40 ms
+PAGE: /JSON|76561198376967904
+Serve JSON took 6 ms
+PAGE: /JSON|76561199035724030
+Serve JSON took 18 ms
+PAGE: /JSON|76561198989442353
+Serve JSON took 23 ms
+PRACTICE OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+PAGE: /JSON|76561199397295882
+Serve JSON took 30 ms
+PAGE: /JSON|76561198184903083
+Serve JSON took 44 ms
+PAGE: /JSON|76561198312868383
+Serve JSON took 24 ms
+PAGE: /JSON|76561199207957687
+Serve JSON took 38 ms
+PAGE: /JSON|76561198973190224
+Serve JSON took 14 ms
+PAGE: /JSON|76561199189782984
+Serve JSON took 26 ms
+PAGE: /JSON|76561198968733759
+Serve JSON took 31 ms
+PAGE: /JSON|76561198857382016
+Serve JSON took 41 ms
+PAGE: /JSON|76561197975863309
+Serve JSON took 2 ms
+PAGE: /JSON|76561198818980830
+Serve JSON took 42 ms
+PAGE: /JSON|76561199073317130
+PAGE: /JSON|76561198376623272
+Serve JSON took 44 ms
+Serve JSON took 80 ms
+PAGE: /JSON|76561199159573386
+Serve JSON took 1 ms
+PAGE: /JSON|76561199110550310
+Serve JSON took 29 ms
+PAGE: /JSON|76561199443438277
+Serve JSON took 27 ms
+PAGE: /JSON|76561198159511315
+Serve JSON took 5 ms
+PAGE: /JSON|76561198146168213
+Serve JSON took 32 ms
+PAGE: /JSON|76561198333751509
+Serve JSON took 40 ms
+PAGE: /JSON|76561198798918366
+Serve JSON took 17 ms
+PAGE: /JSON|76561199085623619
+Serve JSON took 41 ms
+PAGE: /JSON|76561198357697989
+Serve JSON took 39 ms
+PAGE: /JSON|76561198000144315
+Serve JSON took 6 ms
+PAGE: /JSON|76561198343866411
+Serve JSON took 41 ms
+PAGE: /JSON|76561199052388064
+Serve JSON took 39 ms
+PAGE: /JSON|76561198849307610
+Serve JSON took 17 ms
+PAGE: /JSON|76561199485027083
+Serve JSON took 5 ms
+PAGE: /JSON|76561198347071943
+Serve JSON took 37 ms
+PAGE: /JSON|76561199436000075
+Serve JSON took 5 ms
+PAGE: /JSON|76561198803140212
+Serve JSON took 48 ms
+PAGE: /JSON|76561199577782966
+Serve JSON took 7 ms
+PAGE: /JSON|76561198383827664
+Serve JSON took 17 ms
+PAGE: /JSON|76561198109115103
+Serve JSON took 9 ms
+PAGE: /JSON|76561198071995244
+Serve JSON took 43 ms
+PAGE: /JSON|76561199034729083
+Serve JSON took 21 ms
+PAGE: /JSON|76561199468082421
+Serve JSON took 31 ms
+PAGE: /JSON|76561199120924784
+Serve JSON took 43 ms
+PAGE: /JSON|76561198002068415
+Serve JSON took 15 ms
+PAGE: /JSON|76561198381057907
+Serve JSON took 41 ms
+PAGE: /JSON|76561198141544988
+Serve JSON took 45 ms
+PAGE: /JSON|76561198271341353
+Serve JSON took 20 ms
+PAGE: /JSON|76561198079097597
+Serve JSON took 8 ms
+PAGE: /JSON|76561198107739016
+Serve JSON took 23 ms
+PAGE: /JSON|76561198089630619
+Serve JSON took 50 ms
+PAGE: /JSON|76561199233794807
+Serve JSON took 40 ms
+PAGE: /JSON|76561198839133078
+PAGE: /JSON|76561198008086479
+Serve JSON took 43 ms
+Serve JSON took 56 ms
+PAGE: /JSON|76561198953146982
+Serve JSON took 1 ms
+PAGE: /JSON|76561199571189077
+Serve JSON took 13 ms
+PAGE: /JSON|76561199374086232
+Serve JSON took 19 ms
+PAGE: /JSON|76561199376507573
+Serve JSON took 40 ms
+PAGE: /JSON|76561199389275300
+Serve JSON took 12 ms
+PAGE: /JSON|76561199271683375
+Serve JSON took 42 ms
+PAGE: /JSON|76561198173581262
+Serve JSON took 23 ms
+PAGE: /JSON|76561198408440864
+Serve JSON took 11 ms
+PAGE: /INFO
+REQ
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -49 [na na] true 0 <nil> false true 9600 false false false 0}
+{ 9600 8081 Eddie's AC Server 0 5 santa_monica_mtns-g_lasFlores [ks_lamborghini_huracan_gt3 ks_lamborghini_countach ks_lamborghini_aventador_sv ks_lamborghini_sesto_elemento] 48 0 [1 2 3] [10 10 5] -49 [na na] true 0 <nil> false true 9600 false false false 0}
+PAGE: /JSON|76561198180491819
+Serve JSON took 24 ms
+PAGE: /JSON|76561199095525880
+Serve JSON took 49 ms
+PAGE: /JSON|76561199415033708
+Serve JSON took 39 ms
+PAGE: /JSON|76561199050565435
+Serve JSON took 40 ms
+PAGE: /JSON|76561198970626791
+Serve JSON took 8 ms
+PAGE: /JSON|76561199059017856
+Serve JSON took 11 ms
+Session has 0 laps, will not save json
+NextSession
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: current_grip= 0.93468887  transfer= 0.9  sessiongrip= 0.9546816
+Weather update. Ambient: 18.000744 Road: 24.772314 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Qualify
+SENDING session index : 1
+SENDING session type : 2
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=2&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+PAGE: /JSON|76561198136273179
+Serve JSON took 42 ms
+OK
+PAGE: /JSON|76561198036129226
+Serve JSON took 35 ms
+PAGE: /JSON|76561199052637855
+Serve JSON took 11 ms
+PAGE: /JSON|76561198935800473
+Serve JSON took 16 ms
+PAGE: /JSON|76561199194826633
+Serve JSON took 8 ms
+PAGE: /JSON|76561199495992605
+Serve JSON took 40 ms
+PAGE: /JSON|76561197960671839
+Serve JSON took 27 ms
+PAGE: /JSON|76561198870732466
+Serve JSON took 3 ms
+PAGE: /JSON|76561198147205438
+Serve JSON took 38 ms
+PAGE: /JSON|76561198164479440
+Serve JSON took 42 ms
+PAGE: /JSON|76561198217937589
+Serve JSON took 27 ms
+PAGE: /JSON|76561199245530575
+Serve JSON took 12 ms
+PAGE: /JSON|76561199537633461
+Serve JSON took 3 ms
+PAGE: /JSON|76561198323942459
+Serve JSON took 27 ms
+PAGE: /JSON|76561199173570059
+Serve JSON took 25 ms
+PAGE: /JSON|76561199093402652
+Serve JSON took 20 ms
+PAGE: /JSON|76561199048630933
+Serve JSON took 26 ms
+PAGE: /JSON|76561199505330685
+Serve JSON took 5 ms
+PAGE: /JSON|76561199062551110
+Serve JSON took 19 ms
+PAGE: /JSON|76561199596798215
+Serve JSON took 1 ms
+PAGE: /JSON|76561198177162906
+Serve JSON took 28 ms
+PAGE: /JSON|76561198868815688
+Serve JSON took 44 ms
+PAGE: /JSON|76561199466230498
+Serve JSON took 16 ms
+PAGE: /JSON|76561199124236818
+Serve JSON took 42 ms
+PAGE: /JSON|76561198983958653
+Serve JSON took 18 ms
+PAGE: /JSON|76561198312750817
+Serve JSON took 19 ms
+PAGE: /JSON|76561198875040734
+Serve JSON took 12 ms
+PAGE: /JSON|76561198176672553
+Serve JSON took 11 ms
+PAGE: /JSON|76561199179843329
+Serve JSON took 38 ms
+PAGE: /JSON|76561199436863192
+Serve JSON took 45 ms
+PAGE: /JSON|76561198119611406
+Serve JSON took 16 ms
+PAGE: /JSON|76561198081846737
+Serve JSON took 83 ms
+PAGE: /JSON|76561198374099667
+Serve JSON took 33 ms
+PAGE: /JSON|76561198797814998
+Serve JSON took 2 ms
+PAGE: /JSON|76561198799362790
+Serve JSON took 1 ms
+PAGE: /JSON|76561199102625007
+Serve JSON took 10 ms
+PAGE: /JSON|76561198144643522
+Serve JSON took 36 ms
+PAGE: /JSON|76561198189230328
+PAGE: /JSON|76561199436139569
+Serve JSON took 32 ms
+PAGE: /JSON|76561199028164048
+Serve JSON took 52 ms
+Serve JSON took 71 ms
+PAGE: /JSON|76561199051142089
+Serve JSON took 38 ms
+PAGE: /JSON|76561199374793742
+Serve JSON took 38 ms
+PAGE: /JSON|76561198378061837
+Serve JSON took 15 ms
+PAGE: /JSON|76561198838699873
+Serve JSON took 5 ms
+PAGE: /JSON|76561199092925015
+Serve JSON took 9 ms
+PAGE: /JSON|76561199129443530
+Serve JSON took 29 ms
+PAGE: /JSON|76561198268496101
+Serve JSON took 35 ms
+PAGE: /JSON|76561199184734013
+Serve JSON took 31 ms
+PAGE: /JSON|76561198132443071
+Serve JSON took 24 ms
+PAGE: /JSON|76561198143819278
+Serve JSON took 20 ms
+PAGE: /JSON|76561199536273022
+Serve JSON took 39 ms
+PAGE: /JSON|76561198803365704
+Serve JSON took 49 ms
+PAGE: /JSON|76561199001838271
+Serve JSON took 16 ms
+PAGE: /JSON|76561198833646478
+Serve JSON took 19 ms
+PAGE: /JSON|76561199401868428
+Serve JSON took 25 ms
+PAGE: /JSON|76561198353687090
+Serve JSON took 29 ms
+PAGE: /JSON|76561198424049514
+Serve JSON took 50 ms
+PAGE: /JSON|76561198194400119
+Serve JSON took 35 ms
+PAGE: /JSON|76561198869514955
+Serve JSON took 33 ms
+PAGE: /JSON|76561198878019946
+Serve JSON took 8 ms
+PAGE: /JSON|76561198079460346
+Serve JSON took 31 ms
+PAGE: /JSON|76561199106641737
+Serve JSON took 5 ms
+PAGE: /JSON|76561198368119652
+Serve JSON took 4 ms
+PAGE: /JSON|76561199069881014
+Serve JSON took 12 ms
+PAGE: /JSON|76561199235136141
+Serve JSON took 45 ms
+PAGE: /JSON|76561198037976649
+Serve JSON took 1 ms
+PAGE: /JSON|76561199486940095
+Serve JSON took 17 ms
+PAGE: /JSON|76561199473641103
+Serve JSON took 46 ms
+PAGE: /JSON|76561198322462671
+Serve JSON took 48 ms
+PAGE: /JSON|76561199403288153
+Serve JSON took 6 ms
+PAGE: /JSON|76561198430980516
+Serve JSON took 24 ms
+PAGE: /JSON|76561199062085446
+Serve JSON took 25 ms
+PAGE: /JSON|76561198272307153
+Serve JSON took 11 ms
+PAGE: /JSON|76561199162342750
+Serve JSON took 38 ms
+PAGE: /JSON|76561198184289594
+Serve JSON took 6 ms
+PAGE: /JSON|76561199163402118
+Serve JSON took 16 ms
+PAGE: /JSON|76561198378759161
+Serve JSON took 49 ms
+PAGE: /JSON|76561198990430588
+Serve JSON took 27 ms
+PAGE: /JSON|76561198995651028
+Serve JSON took 25 ms
+PAGE: /JSON|76561197986708557
+Serve JSON took 16 ms
+PAGE: /JSON|76561198977917815
+Serve JSON took 49 ms
+PAGE: /JSON|76561199215557849
+Serve JSON took 1 ms
+PAGE: /JSON|76561199051370494
+Serve JSON took 25 ms
+PAGE: /JSON|76561198892839295
+Serve JSON took 18 ms
+PAGE: /JSON|76561198265095391
+Serve JSON took 46 ms
+PAGE: /JSON|76561197984751382
+Serve JSON took 4 ms
+PAGE: /JSON|76561198407837222
+Serve JSON took 1 ms
+PAGE: /JSON|76561197962886429
+Serve JSON took 41 ms
+PAGE: /JSON|76561199342717696
+Serve JSON took 3 ms
+PAGE: /JSON|76561198265183496
+Serve JSON took 44 ms
+PAGE: /JSON|76561198381655537
+Serve JSON took 33 ms
+PAGE: /JSON|76561199468068057
+Serve JSON took 29 ms
+PAGE: /JSON|76561199583429769
+Serve JSON took 23 ms
+PAGE: /JSON|76561199197346473
+Serve JSON took 49 ms
+PAGE: /JSON|76561198199136053
+Serve JSON took 36 ms
+PAGE: /JSON|76561199594975247
+Serve JSON took 17 ms
+PAGE: /JSON|76561199489429498
+Serve JSON took 2 ms
+PAGE: /JSON|76561198257742753
+Serve JSON took 47 ms
+PAGE: /JSON|76561199112251196
+Serve JSON took 42 ms
+PAGE: /JSON|76561199506498448
+Serve JSON took 12 ms
+PAGE: /JSON|76561198871740552
+Serve JSON took 5 ms
+PAGE: /JSON|76561198150767298
+Serve JSON took 18 ms
+PAGE: /JSON|76561199016611135
+Serve JSON took 20 ms
+PAGE: /JSON|76561198425403063
+Serve JSON took 4 ms
+PAGE: /JSON|76561198971837044
+Serve JSON took 40 ms
+PAGE: /JSON|76561198079384598
+Serve JSON took 19 ms
+PAGE: /JSON|76561199225044586
+Serve JSON took 49 ms
+PAGE: /JSON|76561198205665245
+Serve JSON took 44 ms
+PAGE: /JSON|76561199077375273
+Serve JSON took 45 ms
+PAGE: /JSON|76561198180487959
+Serve JSON took 31 ms
+PAGE: /JSON|76561199048571471
+Serve JSON took 7 ms
+PAGE: /JSON|76561198383870291
+Serve JSON took 6 ms
+PAGE: /JSON|76561199524273877
+Serve JSON took 41 ms
+PAGE: /JSON|76561198839552283
+Serve JSON took 1 ms
+PAGE: /JSON|76561199274115342
+Serve JSON took 3 ms
+PAGE: /JSON|76561198276786042
+Serve JSON took 49 ms
+PAGE: /JSON|76561199588857648
+Serve JSON took 34 ms
+PAGE: /JSON|76561199542679987
+Serve JSON took 16 ms
+PAGE: /JSON|76561199527234870
+Serve JSON took 20 ms
+PAGE: /JSON|76561199232503658
+Serve JSON took 39 ms
+PAGE: /JSON|76561197977734794
+Serve JSON took 32 ms
+PAGE: /JSON|76561198146715288
+Serve JSON took 29 ms
+PAGE: /JSON|76561199206225957
+Serve JSON took 48 ms
+PAGE: /JSON|76561198177303823
+Serve JSON took 45 ms
+PAGE: /JSON|76561199085810966
+Serve JSON took 30 ms
+PAGE: /JSON|76561198211166747
+Serve JSON took 12 ms
+PAGE: /JSON|76561199447933069
+Serve JSON took 1 ms
+PAGE: /JSON|76561199575809006
+Serve JSON took 33 ms
+PAGE: /JSON|76561197961695592
+Serve JSON took 27 ms
+PAGE: /JSON|76561199047252583
+Serve JSON took 38 ms
+PAGE: /JSON|76561199267712160
+Serve JSON took 47 ms
+PAGE: /JSON|76561198165882704
+Serve JSON took 23 ms
+QUALIFY OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+Session has 0 laps, will not save json
+NextSession
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+RACE, WaitTime: 60000 START TIME: 2761896
+DynamicTrack: current_grip= 0.9546816  transfer= 0.9  sessiongrip= 0.94591767
+Weather update. Ambient: 17.030243 Road: 22.073265 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Race
+SENDING session index : 2
+SENDING session type : 3
+SENDING session time : 0
+SENDING session laps : 5
+SENDING session Timed Race: false
+SENDING http://93.57.10.21/lobby.ashx/ping?session=3&timeleft=5&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+No cars connected, move to next session
+Session has 0 laps, will not save json
+Server looping
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 14.501023 Road: 13.251452 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PRACTICE OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+Session has 0 laps, will not save json
+NextSession
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: current_grip= 0.9649864  transfer= 0.9  sessiongrip= 0.96963036
+Weather update. Ambient: 15.074148 Road: 14.055296 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Qualify
+SENDING session index : 1
+SENDING session type : 2
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=2&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+QUALIFY OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+Session has 0 laps, will not save json
+NextSession
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+RACE, WaitTime: 60000 START TIME: 4142006
+DynamicTrack: current_grip= 0.96963036  transfer= 0.9  sessiongrip= 0.9711159
+Weather update. Ambient: 15.258034 Road: 13.668561 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Race
+SENDING session index : 2
+SENDING session type : 3
+SENDING session time : 0
+SENDING session laps : 5
+SENDING session Timed Race: false
+SENDING http://93.57.10.21/lobby.ashx/ping?session=3&timeleft=5&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+No cars connected, move to next session
+Session has 0 laps, will not save json
+Server looping
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 17.761618 Road: 23.957674 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+PRACTICE OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+Session has 0 laps, will not save json
+NextSession
+SESSION: Qualify
+TYPE=QUALIFY
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: current_grip= 0.9646229  transfer= 0.9  sessiongrip= 0.95424736
+Weather update. Ambient: 15.88265 Road: 15.781252 Graphics: 7_heavy_clouds
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Qualify
+SENDING session index : 1
+SENDING session type : 2
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=2&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+QUALIFY OVER PACKET
+1)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:0 Rank:0
+2)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:1 Rank:1
+3)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:2 Rank:2
+4)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:3 Rank:3
+5)  BEST: 16666:39:999 TOTAL: 0:00:000 Laps:0 SesID:4 Rank:4
+Session has 0 laps, will not save json
+NextSession
+SESSION: Race
+TYPE=RACE
+TIME=0
+LAPS=5
+OPEN=1
+WAIT TIME=60
+
+RACE, WaitTime: 60000 START TIME: 5522076
+DynamicTrack: current_grip= 0.95424736  transfer= 0.9  sessiongrip= 0.9692572
+Weather update. Ambient: 18.05954 Road: 23.97805 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Race
+SENDING session index : 2
+SENDING session type : 3
+SENDING session time : 0
+SENDING session laps : 5
+SENDING session Timed Race: false
+SENDING http://93.57.10.21/lobby.ashx/ping?session=3&timeleft=5&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
+No cars connected, move to next session
+Session has 0 laps, will not save json
+Server looping
+NextSession
+SESSION: Practice
+TYPE=PRACTICE
+TIME=10
+LAPS=0
+OPEN=1
+WAIT TIME=0
+
+DynamicTrack: first session, resetting grip
+Weather update. Ambient: 17.267689 Road: 23.357073 Graphics: 3_clear
+Wind update. Speed: 0 Direction: 0
+SENDING session name : Practice
+SENDING session index : 0
+SENDING session type : 1
+SENDING session time : 10
+SENDING session laps : 0
+SENDING http://93.57.10.21/lobby.ashx/ping?session=1&timeleft=600&port=9600&clients=0&track=santa_monica_mtns-g_lasFlores&pickup=1
+OK
